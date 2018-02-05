@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class TwoFive {
         System.out.println("Enter the subtotal and a gratuity rate: ");
 
         int subtotal = getSG.nextInt();
-        double gratuityRate = (getSG.nextInt()) / 10.0;
+        double gratuityRate = (getSG.nextInt()) / 100.; // JA
 
         // -- Calculate tip and total
         double tip = subtotal * gratuityRate;

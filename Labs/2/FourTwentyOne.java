@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class FourTwentyOne {
         "l", "M", "m", "N", "n", "O", "o", "P", "p", "Q", "q", "R", "r", "S", "s", "T", "t", "U", "u", "V", "v", "W", "w", "X", "x", "Y", "y", "Z", "z"};
 
         // - Check if there are any letters
-        for (int i = 0; i < alphabet.length; i++) {
+        for (int i = 0; i < alphabet.length; i++) { // JA: You should use the Character class
             if (social.contains(alphabet[i])) {
                 notValid = true;
             }
