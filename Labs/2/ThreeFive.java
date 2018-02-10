@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 
@@ -23,31 +23,31 @@ public class ThreeFive {
         int elapsedDay = elapsed % 7;
 
         switch (day) {
-            case 1:
+            case 0:
                 currentDay = "Sunday";
                 break;
 
-            case 2:
+            case 1:
                 currentDay = "Monday";
                 break;
 
-            case 3:
+            case 2:
                 currentDay = "Tuesday";
                 break;
 
-            case 4:
+            case 3:
                 currentDay = "Wednesday";
                 break;
 
-            case 5:
+            case 4:
                 currentDay = "Thursday";
                 break;
 
-            case 6:
+            case 5:
                 currentDay = "Friday";
                 break;
 
-            case 7:
+            case 6:
                 currentDay = "Saturday";
                 break;
 
@@ -57,31 +57,31 @@ public class ThreeFive {
         }
 
         switch (elapsedDay) {
-            case 1:
+            case 0:
                 futureDay = "Sunday";
                 break;
 
-            case 2:
+            case 1:
                 futureDay = "Monday";
                 break;
 
-            case 3:
+            case 2:
                 futureDay = "Tuesday";
                 break;
 
-            case 4:
+            case 3:
                 futureDay = "Wednesday";
                 break;
 
-            case 5:
+            case 4:
                 futureDay = "Thursday";
                 break;
 
-            case 6:
+            case 5:
                 futureDay = "Friday";
                 break;
 
-            case 7:
+            case 6:
                 futureDay = "Saturday";
                 break;
 
