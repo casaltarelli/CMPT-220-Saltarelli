@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 
@@ -57,14 +57,14 @@ public class FiveFive {
     public static double convertToPounds(double weight) {
         double conversion = 1.0/2.2;
 
-        weight = weight * conversion;
+        weight = weight / conversion;
         return weight;
     }
 
     public static double convertToKilo(double weight) {
         double conversion = 0.45359237;
 
-        weight = weight / conversion;
+        weight = weight * conversion;
         return weight;
     }
 }

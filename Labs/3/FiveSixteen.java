@@ -1,7 +1,8 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 
+// JA: There is a simple way of finding the factors, by checking every number
 public class FiveSixteen {
     public static void main(String[] args) {
         // ----- Question 5.16 -----

@@ -1,11 +1,12 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 
 public class FiveThirteen {
     public static void main(String[] args) {
         // ----- Question 5.13 -----
-        // -- Prompt User
+        // -- Prompt User // You don't need to prompt. Just start from 1 and 
+		// check the numbers
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter an integer");
 
