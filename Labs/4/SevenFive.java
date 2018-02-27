@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -34,6 +34,7 @@ public class SevenFive {
 
         // -- Output to User
         System.out.println("The number of distinct numbers is " + distinctNums);
-        System.out.println("The distinct numbers are:" + (Arrays.toString(nums)));
+		// JA: You should not output the ones that are 0
+        System.out.println("The distinct numbers are:" + (Arrays.toString(nums))); 
     }
 }

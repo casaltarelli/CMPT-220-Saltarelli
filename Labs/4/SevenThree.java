@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -55,7 +55,7 @@ public class SevenThree {
             }
 
             // - Output Accordingly
-            if (occurences == 1) {
+            if (occurences == 1) { // JA: You should not output the same number more than once
                 System.out.println(numbers[i] + " occurs " + occurences + " time");
             } else if (occurences > 1) {
                 System.out.println(numbers[i] + " occurs " + occurences + " times");
