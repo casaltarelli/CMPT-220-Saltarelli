@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.Date;
 
@@ -37,14 +37,14 @@ public class NineThree {
         System.out.println(dateVI.toString());
 
         // - 7
-        //Date dateVII = new Date(10000000000);
+        Date dateVII = new Date(10000000000L);
 
-        //System.out.println(dateVII.toString());
+        System.out.println(dateVII.toString());
 
         // - 8
-        //Date dateVIII = new Date(100000000000);
+        Date dateVIII = new Date(100000000000L);
 
-        //System.out.println(dateVIII.toString());
+        System.out.println(dateVIII.toString());
 
 
     }
