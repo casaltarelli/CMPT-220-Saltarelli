@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -30,7 +30,7 @@ public class TenFive {
     }
 
     // ----- Methods
-    public static int[] getFactors(int n) {
+    public static int[] getFactors(int n) { // JA: This is not finding the factors
         int[] factors = new int[20];
 
         // - Get Factors

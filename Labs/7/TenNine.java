@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public class TenNine {
     // ----- Question 10.5 -----
@@ -9,6 +9,7 @@ public class TenNine {
     private String[] students = new String[100];
     private int numberOfStudents;
 
+	// JA: No main?
     public static void main(String[] args) {
 
     }
