@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.io.*;
 import java.util.*;
@@ -16,12 +16,12 @@ public class TwelveThirteen {
         int lineCount = 0;
 
         // -- Check proper input
-        if (args.length != 2) {
+        if (args.length != 1) { // JA
             System.out.println("Invalid Entry");
             System.exit(0);
         }
 
-        File file = new File(args[1]);
+        File file = new File(args[0]); // JA
 
         // -- Check if file exists
         if (!file.exists()) {

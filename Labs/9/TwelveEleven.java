@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.*;
 import java.io.*;
@@ -21,7 +21,7 @@ public class TwelveEleven {
             System.exit(0);
         }
 
-        File temp = new File("D:\\temp.txt");
+        File temp = new File("temp.txt"); // JA
 
         Scanner input = null;
 

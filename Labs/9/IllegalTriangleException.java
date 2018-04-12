@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public class IllegalTriangleException extends Throwable {
     // ----- Question 12.5 -----
