@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public interface Colorable {
     // ----- Question 13.7 -----
