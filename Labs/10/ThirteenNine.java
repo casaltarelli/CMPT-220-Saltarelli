@@ -8,7 +8,7 @@ public class ThirteenNine extends GeometricObject implements Comparable {
     // ----- Global Variables
     private double radius;
 
-    public static void main(String[] args) {}
+    public static void main(String[] args) {}  // JA: No main?
 
     // ----- Methods
     public ThirteenNine() {}
